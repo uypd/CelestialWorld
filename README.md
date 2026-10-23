@@ -1,3 +1,3 @@
 # CelestialWorld
 
-Halloween-Resource-Pack-Plugin für Paper 26.2. Download: siehe Releases.
+Halloween-Resource-Pack fuer den Celestial-Server. Wird beim Join automatisch vom Plugin geladen.
