@@ -1,0 +1,19 @@
+# Celestial World - Einstellungen
+#
+# Das Resource Pack steckt in der Plugin-JAR und liegt zusaetzlich auf GitHub.
+# Spieler laden es beim Join direkt von GitHub - kein offener Port noetig.
+
+resourcepack:
+  # Download-Adresse des Packs. Leer lassen = eingebauter Webserver (siehe unten).
+  url: "https://raw.githubusercontent.com/uypd/CelestialWorld/main/src/main/resources/pack.zip"
+  # true = Spieler muessen das Pack annehmen
+  force: true
+  # Text im Annahme-Fenster
+  prompt: "§6Celestial World §5Halloween §7- bitte Pack annehmen!"
+  # Pack beim Join automatisch senden
+  send-on-join: true
+
+# Nur wenn resourcepack.url leer ist: eigener kleiner Webserver (Port muss per TCP offen sein)
+webserver:
+  port: 8123
+  host: "celestial.renesserver.eu"
